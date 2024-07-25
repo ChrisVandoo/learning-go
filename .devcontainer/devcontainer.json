@@ -1,0 +1,16 @@
+{
+  "name": "Go Devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/go:1.22",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "eamodio.gitlens",
+        "vscodevim.vim"
+      ],
+      "settings": {
+        "go.useLanguageServer": true  
+      }
+    }
+  }
+}
